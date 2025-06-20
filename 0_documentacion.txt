@@ -1,0 +1,27 @@
+Codigos de respuesta:
+    200 : Conectado Correctamente
+    201 : Componente Creado Correctamente.
+    202 : El Componente existe en la Base de Datos.
+    203 : El Componente no existe en la Base de Datos.
+    204 : El Componente es incorrecto.
+    205 : Vinculacion al componente exitoso.
+    206 : Fechas actualizadas correctamente.
+
+    400 : Error intentando Conectar.
+    401 : Error intentando crear al componente.
+    402 : Faltan datos para ejecutar la accion solicitada.
+    403 : Ya existe un Componente registrado con ese nombre.
+
+
+
+Usos de las Funcionalidades:
+
+    check() : 
+    reg_componentes(nombre, tipo_mantenimiento, ultima_revision, proxima_revision)
+    verificar_componente(nombre)
+    login(nombre and tipo_mantenimiento)
+    editar_usuario(nombre, and tipo_mantenimiento, ultima_revision, ultima_revision2, proxima_revision, proxima_revision2)
+
+
+
+
