@@ -10,7 +10,8 @@ Codigos de respuesta:
     400 : Error intentando Conectar.
     401 : Error intentando crear al componente.
     402 : Faltan datos para ejecutar la accion solicitada.
-    403 : Ya existe un Componente registrado con ese nombre.
+    403 : Ya existe un Componente registrado con ese nombre. 
+    404 : Error
 
 
 
@@ -19,8 +20,8 @@ Usos de las Funcionalidades:
     check() : 
     reg_componentes(nombre, tipo_mantenimiento, ultima_revision, proxima_revision)
     verificar_componente(nombre)
-    login(nombre and tipo_mantenimiento)
-    editar_usuario(nombre, and tipo_mantenimiento, ultima_revision, ultima_revision2, proxima_revision, proxima_revision2)
+    login(nombre, tipo_mantenimiento)
+    editar_componente(nombre, and tipo_mantenimiento, ultima_revision, ultima_revision2, proxima_revision, proxima_revision2)
 
 
 
